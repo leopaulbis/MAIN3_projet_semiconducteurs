@@ -1,0 +1,553 @@
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.10) (preloaded format=xelatex 2022.1.9)  11 JAN 2022 10:07
+entering extended mode
+**"./projet semiconducteurs.tex"
+(projet semiconducteurs.tex
+LaTeX2e <2021-06-01> patch level 1
+L3 programming layer <2021-10-12>
+(C:\Users\leo\AppData\Local\Programs\MiKTeX1\tex/latex/base\report.cls
+Document Class: report 2021/02/12 v1.4n Standard LaTeX document class
+(C:\Users\leo\AppData\Local\Programs\MiKTeX1\tex/latex/base\size10.clo
+File: size10.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count178
+\c@chapter=\count179
+\c@section=\count180
+\c@subsection=\count181
+\c@subsubsection=\count182
+\c@paragraph=\count183
+\c@subparagraph=\count184
+\c@figure=\count185
+\c@table=\count186
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(C:\Users\leo\AppData\Local\Programs\MiKTeX1\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (C:\Users\leo\AppData\Local\Programs\MiKTeX1\tex/generic/babel\babel.sty
+Package: babel 2021/10/13 3.64 The Babel package
+\babel@savecnt=\count187
+\U@D=\dimen139
+\l@unhyphenated=\language79
+
+(C:\Users\leo\AppData\Local\Programs\MiKTeX1\tex/generic/babel\xebabel.def
+(C:\Users\leo\AppData\Local\Programs\MiKTeX1\tex/generic/babel\txtbabel.def))
+\bbl@readstream=\read2
+\bbl@dirlevel=\count188
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\leo\AppData\Local\Programs\MiKTeX1\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\leo\AppData\Local\Programs\MiKTeX1\tex/generic/babel-french\french.ld
+f
+Language: french 2021/07/20 v3.5m French support from the babel system
+Package babel Info: Hyphen rules for 'acadian' set to \l@french
+(babel)             (\language22). Reported on input line 91.
+Package babel Info: Hyphen rules for 'canadien' set to \l@french
+(babel)             (\language22). Reported on input line 92.
+\FB@nonchar=\count189
+Package french.ldf Info: No need for active punctuation characters
+(french.ldf)             with this version of XeTeX!
+(french.ldf)             reported on input line 332.
+\FB@punctthick=\XeTeXcharclass1
+\FB@punctthin=\XeTeXcharclass2
+\FB@punctnul=\XeTeXcharclass3
+\FB@guilo=\XeTeXcharclass4
+\FB@guilf=\XeTeXcharclass5
+\FB@guilnul=\XeTeXcharclass6
+\FBguill@level=\count190
+\FBold@everypar=\toks18
+\FB@Mht=\dimen140
+\mc@charclass=\count191
+\mc@charfam=\count192
+\mc@charslot=\count193
+\std@mcc=\count194
+\dec@mcc=\count195
+\listindentFB=\dimen141
+\descindentFB=\dimen142
+\labelindentFB=\dimen143
+\labelwidthFB=\dimen144
+\leftmarginFB=\dimen145
+\parindentFFN=\dimen146
+\FBfnindent=\dimen147
+)
+(C:\Users\leo\AppData\Local\Programs\MiKTeX1\tex/generic/babel-french\french.ld
+f
+Language: french 2021/07/20 v3.5m French support from the babel system
+))
+(C:\Users\leo\AppData\Local\Programs\MiKTeX1\tex/latex/carlisle\scalefnt.sty)
+(C:\Users\leo\AppData\Local\Programs\MiKTeX1\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+(C:\Users\leo\AppData\Local\Programs\MiKTeX1\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2021/04/20 v2.17j AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\leo\AppData\Local\Programs\MiKTeX1\tex/latex/amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(C:\Users\leo\AppData\Local\Programs\MiKTeX1\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks20
+\ex@=\dimen148
+))
+(C:\Users\leo\AppData\Local\Programs\MiKTeX1\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen149
+)
+(C:\Users\leo\AppData\Local\Programs\MiKTeX1\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count196
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count197
+\leftroot@=\count198
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count199
+\DOTSCASE@=\count266
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box50
+\strutbox@=\box51
+\big@size=\dimen150
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count267
+\c@MaxMatrixCols=\count268
+\dotsspace@=\muskip16
+\c@parentequation=\count269
+\dspbrk@lvl=\count270
+\tag@help=\toks21
+\row@=\count271
+\column@=\count272
+\maxfields@=\count273
+\andhelp@=\toks22
+\eqnshift@=\dimen151
+\alignsep@=\dimen152
+\tagshift@=\dimen153
+\tagwidth@=\dimen154
+\totwidth@=\dimen155
+\lineht@=\dimen156
+\@envbody=\toks23
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+(C:\Users\leo\AppData\Local\Programs\MiKTeX1\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(C:\Users\leo\AppData\Local\Programs\MiKTeX1\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(C:\Users\leo\AppData\Local\Programs\MiKTeX1\tex/latex/graphics\graphicx.sty
+Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\leo\AppData\Local\Programs\MiKTeX1\tex/latex/graphics\graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\leo\AppData\Local\Programs\MiKTeX1\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(C:\Users\leo\AppData\Local\Programs\MiKTeX1\tex/latex/graphics-cfg\graphics.cf
+g
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 107.
+
+(C:\Users\leo\AppData\Local\Programs\MiKTeX1\tex/latex/graphics-def\xetex.def
+File: xetex.def 2021/03/18 v5.0k Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen157
+\Gin@req@width=\dimen158
+) (C:\Users\leo\AppData\Local\Programs\MiKTeX1\tex/latex/caption\caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+
+(C:\Users\leo\AppData\Local\Programs\MiKTeX1\tex/latex/caption\caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen159
+\captionmargin@=\dimen160
+\captionwidth=\dimen161
+\caption@tempdima=\dimen162
+\caption@indent=\dimen163
+\caption@parindent=\dimen164
+\caption@hangindent=\dimen165
+Package caption Info: Standard document class detected.
+Package caption Info: french babel package is loaded.
+)
+\c@caption@flags=\count274
+\c@continuedfloat=\count275
+)
+(C:\Users\leo\AppData\Local\Programs\MiKTeX1\tex/latex/systeme\systeme.sty
+(C:\Users\leo\AppData\Local\Programs\MiKTeX1\tex/latex/xstring\xstring.sty
+(C:\Users\leo\AppData\Local\Programs\MiKTeX1\tex/generic/xstring\xstring.tex
+\integerpart=\count276
+\decimalpart=\count277
+)
+Package: xstring 2021/07/21 v1.84 String manipulations (CT)
+)
+(C:\Users\leo\AppData\Local\Programs\MiKTeX1\tex/generic/systeme\systeme.tex
+\SYS_systemecode=\toks25
+\SYS_systempreamble=\toks26
+\SYSeqnum=\count278
+Invalid UTF-8 byte or sequence at line 78 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 78 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 78 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 78 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 82 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 86 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 86 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 86 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 88 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 90 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 90 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 90 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 90 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 90 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 90 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 96 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 96 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 114 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 114 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 114 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 115 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 115 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 115 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 115 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 115 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 115 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 118 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 118 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 118 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 118 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 118 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 129 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 146 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 146 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 146 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 146 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 146 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 181 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 181 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 182 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 187 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 193 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 193 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 197 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 199 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 199 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 199 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 207 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 207 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 209 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 217 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 240 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 242 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 244 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 245 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 255 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 255 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 255 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 255 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 259 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 267 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 267 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 269 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 274 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 285 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 302 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 303 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 303 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 318 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 318 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 318 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 318 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 332 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 332 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 332 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 338 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 338 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 353 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 385 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 404 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 407 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 452 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 457 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 514 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 572 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 573 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 592 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 595 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 598 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 621 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 626 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 630 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 638 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 642 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 646 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 648 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 648 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 654 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 654 replaced by U+FFFD.
+)
+Package: systeme 2020/05/03 v0.34 Mise en forme de systemes d'equations (CT)
+)
+(C:\Users\leo\AppData\Local\Programs\MiKTeX1\tex/latex/l3backend\l3backend-xete
+x.def
+File: l3backend-xetex.def 2021-10-12 L3 backend support: XeTeX
+ ()
+\c__kernel_sys_dvipdfmx_version_int=\count279
+\l__color_backend_stack_int=\count280
+\g__color_backend_stack_int=\count281
+\g__graphics_track_int=\count282
+\l__pdf_internal_box=\box52
+\g__pdf_backend_object_int=\count283
+\g__pdf_backend_annotation_int=\count284
+\g__pdf_backend_link_int=\count285
+) (projet semiconducteurs.aux)
+\openout1 = `"projet semiconducteurs.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 9
+.
+
+(C:\Users\leo\AppData\Local\Programs\MiKTeX1\tex/latex/base\ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Info: Redefining \degres on input line 9.
+LaTeX Info: Redefining \up on input line 9.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 12.
+
+
+(C:\Users\leo\AppData\Local\Programs\MiKTeX1\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 12.
+
+
+(C:\Users\leo\AppData\Local\Programs\MiKTeX1\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+[1
+
+] (projet semiconducteurs.toc)
+\tf@toc=\write3
+\openout3 = `"projet semiconducteurs.toc"'.
+
+ [1
+
+]
+Chapitre 1.
+
+Overfull \hbox (13.62665pt too wide) in paragraph at lines 15--16
+[]\TU/lmr/m/n/10 Les semis-conducteurs sont utilisés dans une variété d’applica
+tions. Par exemple,
+ []
+
+[2
+
+]
+Chapitre 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--28
+
+ []
+
+[3
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 41--43
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--50
+
+ []
+
+[4] [5]
+Chapitre 3.
+File: ../schéma et graphes/substratbisbis.png Graphic file (type bmp)
+<../schéma et graphes/substratbisbis.png>
+[6
+
+] [7]
+File: ../schéma et graphes/schema.png Graphic file (type bmp)
+<../schéma et graphes/schema.png>
+ [8]
+Underfull \hbox (badness 10000) in paragraph at lines 212--218
+
+ []
+
+[9]
+File: ../schéma et graphes/geo semi infni.png Graphic file (type bmp)
+<../schéma et graphes/geo semi infni.png>
+ [10]
+File: ../schéma et graphes/fil chauffant.png Graphic file (type bmp)
+<../schéma et graphes/fil chauffant.png>
+ [11]
+File: ../schéma et graphes/meijergbis.png Graphic file (type bmp)
+<../schéma et graphes/meijergbis.png>
+File: ../schéma et graphes/def_meijerg.png Graphic file (type bmp)
+<../schéma et graphes/def_meijerg.png>
+
+Overfull \hbox (13.15688pt too wide) in paragraph at lines 299--300
+ [] 
+ []
+
+[12]
+Chapitre 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--315
+
+ []
+
+File: ../schéma et graphes/graphe_linéaire.png Graphic file (type bmp)
+<../schéma et graphes/graphe_linéaire.png>
+[13
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 319--323
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 330--335
+
+ []
+
+
+Overfull \hbox (2.77658pt too wide) in paragraph at lines 336--342
+ [] 
+ []
+
+[14]
+File: ../schéma et graphes/schema couches minces.png Graphic file (type bmp)
+<../schéma et graphes/schema couches minces.png>
+File: ../schéma et graphes/resiatnce.png Graphic file (type bmp)
+<../schéma et graphes/resiatnce.png>
+ [15]
+File: ../schéma et graphes/meijergbis.png Graphic file (type bmp)
+<../schéma et graphes/meijergbis.png>
+File: ../schéma et graphes/graphe_partie_nonlineaire.png Graphic file (type bmp
+)
+<../schéma et graphes/graphe_partie_nonlineaire.png>
+
+Overfull \hbox (1.89584pt too wide) in paragraph at lines 373--374
+ [] 
+ []
+
+[16]
+Missing character: There is no ω in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ω in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ω in font [lmroman10-regular]:mapping=tex-text;!
+
+
+LaTeX Warning: Empty `thebibliography' environment on input line 408.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 378--408
+
+ []
+
+
+Underfull \hbox (badness 1596) in paragraph at lines 378--408
+\TU/lmr/m/n/10 J-Y. Duquesne, D. Fournier, and C. Frétigny, “Analytical solutio
+ns
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 378--408
+
+ []
+
+
+Underfull \hbox (badness 1320) in paragraph at lines 378--408
+\TU/lmr/m/n/10 W. Jaber and P.-O. Chapuis, “Non-idealities in the 3ω method for
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 378--408
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 378--408
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 378--408
+
+ []
+
+
+Underfull \hbox (badness 4518) in paragraph at lines 378--408
+\TU/lmr/m/n/10 Emmanuel GIUDICELLI, Nadia MARTAJ, Rachid BENNACER ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 378--408
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 378--408
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 378--408
+
+ []
+
+[17
+
+] (projet semiconducteurs.aux) ) 
+Here is how much of TeX's memory you used:
+ 5493 strings out of 411295
+ 88579 string characters out of 2832046
+ 413502 words of memory out of 3000000
+ 25852 multiletter control sequences out of 15000+600000
+ 409870 words of font info for 65 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 57i,8n,66p,2149b,326s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on projet semiconducteurs.pdf (18 pages).

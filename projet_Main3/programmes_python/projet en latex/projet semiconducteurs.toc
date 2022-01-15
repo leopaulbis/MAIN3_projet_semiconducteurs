@@ -1,0 +1,30 @@
+\babel@toc {french}{}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{2}{}%
+\contentsline {chapter}{\numberline {2}Définitions préliminaires}{3}{}%
+\contentsline {section}{\numberline {2.1}Conducteurs, isolants et Semi-conducteurs}{3}{}%
+\contentsline {section}{\numberline {2.2}Grandeurs thermodynamiques}{4}{}%
+\contentsline {subsection}{\numberline {2.2.1}Puissance}{4}{}%
+\contentsline {subsection}{\numberline {2.2.2}Coefficient de température d'une résistance}{4}{}%
+\contentsline {subsection}{\numberline {2.2.3}Conductivité thermique}{4}{}%
+\contentsline {subsection}{\numberline {2.2.4}Flux thermique}{4}{}%
+\contentsline {subsection}{\numberline {2.2.5}Vecteur densité de flux thermique}{5}{}%
+\contentsline {chapter}{\numberline {3}Méthode 3$\omega $}{6}{}%
+\contentsline {section}{\numberline {3.1}Cadre d'étude}{6}{}%
+\contentsline {section}{\numberline {3.2}Etude du substrat seul infini}{6}{}%
+\contentsline {subsection}{\numberline {3.2.1}Détermination de l'oscillation en température}{6}{}%
+\contentsline {subsection}{\numberline {3.2.2}Equation de la chaleur}{8}{}%
+\contentsline {section}{\numberline {3.3}Cas du substrat semi infini}{10}{}%
+\contentsline {subsection}{\numberline {3.3.1}Détermination de la composante en phase}{10}{}%
+\contentsline {subsection}{\numberline {3.3.2}Calcul de la solution éxacte }{11}{}%
+\contentsline {chapter}{\numberline {4}Détermination numérique de la conductivité thermique }{13}{}%
+\contentsline {section}{\numberline {4.1}Régime linéaire: substrat seul}{13}{}%
+\contentsline {section}{\numberline {4.2}Régime non linéaire}{15}{}%
+\contentsline {section}{\numberline {4.3}Résultats et Conclusions}{16}{}%
+\contentsline {subsection}{\numberline {4.3.1}Tracer des variations de température}{16}{}%
+\contentsline {subsubsection}{Influence de la largeur de l'élément chauffant}{17}{}%
+\contentsline {subsection}{\numberline {4.3.2}Calcul de la conductivité thermique du SiN}{18}{}%
+\contentsline {subsubsection}{Pour un film d'une épaisseur de 100 nm}{19}{}%
+\contentsline {subsubsection}{Pour un film d'une épaisseur de 100nm}{19}{}%
+\contentsline {subsubsection}{Pour un film d'épaisseur de 50nm}{20}{}%
+\contentsline {subsubsection}{Pour un film d'épaisseur de 100nm}{21}{}%
+\contentsline {section}{\numberline {4.4}Répartition du travail de groupe}{21}{}%

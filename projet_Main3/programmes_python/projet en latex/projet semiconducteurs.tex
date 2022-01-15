@@ -346,7 +346,7 @@ ecart relatif & 7,9 \% & 1,1 \% & 10,1 \% & \\\hline
 Le système étudié est alors le suivant:
 \begin{center}
 \includegraphics[scale=1]{../schéma et graphes/schema couches minces.png}
-\captionof{figure}{système subatstrat et couches minces}
+\captionof{figure}{système substrat et couches minces}
 \end{center}
 L'oscillation en température $\Delta T_{ac}$ s'écrit donc de la manière suivante:
 \begin{center}
@@ -359,7 +359,7 @@ Pour déterminer $k_{f}$ il s'agit de déterminer $\Delta T{f}$. En effet, lorsq
 Par ailleurs, on obtient la valeur de $\Delta T_{ac}$ en mesurant le troisième harmonique de la tension (equation 3.10).
 De plus, ayant déterminer la valeur $k_{s}$ du substrat dans la partie précédente, on remonte à la valeur de $\Delta T_{s}$ par la formule de Cahil (equation 4.1). On en déduit alors la valeur de $\Delta T_{f}$ puis la valeur de $k_{f}$:
 \begin{equation}
-k_{f}=\frac{P_{rms}t_{f}}{2b\Delta T_{f}}
+k_{f}=\frac{P_{rms}T_{f}}{2b\Delta T_{f}}
 \end{equation}
 \begin{center}
 \includegraphics[scale=1]{../schéma et graphes/resiatnce.png}
@@ -378,8 +378,55 @@ On évalue alors tout d'abord la fonction de Meijerg comme une combinaison liné
 On trace de plus les composantes de la partie linéaire en pointillés pour s'assurer que nos tracés soit cohérent avec les résultats de la partie précédente.
 
 \section{Résultats et Conclusions}
+\subsection{Tracer des variations de température}
+Il s'agit de regarder ici, à partir d'une conductivité thermique connue la cohérence du tracer à l'aide de la fonction de Meijerg.
+Pour ce faire, on fait varier  la largeur de l'élément chauffant
+\subsubsection{Influence de la largeur de l'élément chauffant}
+\begin{center}
+\includegraphics[scale=0.7]{../schéma et graphes/graphes1.png} 
+\captionof{figure}{Variation de température pour différente valeur de largeur}
+\end{center}
+On voit clairement que plus la largeur de l'élément chauffant est grande, plus la variation de température est faible. Cela est cohérent puisque pour une même tension injectée dans l'élément chauffant, l'énergie dissipée par celui ci sera la même mais sur une surface d'autant plus grande que bh est grand. Donc, la puissance par unité de longueur est d'autant plus faible que bh est grand d'où l'observation.
+\begin{center}
+\includegraphics[scale=0.7]{../schéma et graphes/graphe2.png}
+\captionof{figure}{Variation de la phase et de l'amplitude de l'onde} 
+\end{center}
+Au niveau de la phase et de l'amplitude de l'onde, encore une fois le tracé est cohérent puisque la phase diminue lorsque la largeur augmente. En effet, la puissance dissipée par unité de longueur étant plus faible, cela induit un déphasage au niveau de l'onde (elle mettra plus de temps à atteindre un point donné si elle l'atteint).
+\subsection{Calcul de la conductivité thermique du SiN}
+Afin d'appliquer le raisonnement explicité de la section 4.2, il s'agit de tracer les variations de la composante en phase de la température pour le substrat seul et l'ensemble substrat-couche mince à partir des données expérimentales. Pour cela, ces données (fréquence, troisième harmonique, ...etc) sont stockées dans un fichier excel. 
+\newline
+Ensuite, à l'aide de la formule de Cahill, on trace les variations de la température du substrat seul grâce aux valeurs de fréquences stockées dans le fichier excel. De même, on remonte à la valeur de $\Delta T_{ac}$ grâce aux valeurs du troisième harmonique stockées dans ce même fichier.
+\subsubsection{Pour un film d'une épaisseur de 100 nm}
+\begin{center}
+\includegraphics[scale=0.7]{50nm.png}
+\captionof{figure}{Variation de température pour Si(substrat) et Si + film}
+\end{center}
+\subsubsection{Pour un film d'une épaisseur de 100nm}
+\begin{center}
+\includegraphics[scale=0.7]{100nm.png} 
+\captionof{figure}{Variation de température Si(substrat) et Si + film}
+\end{center}
+Les valeurs  de température (celles du substrat seul et les partie réelle et partie imaginaire de l'ensemble couche-mince-substrat) calculées pour chaque fréquences sont alors stockées dans une dataframe. On créer de plus deux champs supplémentaires dans lesquels seront stockées les valeurs de température du film et de conductivité calculées par la suite.
+\newline
+On calcul ensuite de le $\Delta T_{f}$ en faisant la différence entre les deux variations de température calculées et on stocke ces valeurs dans la dataframe. On en déduit alors la valeur de la conductivité du film grâce à la formule 4.5 que l'on stocke également dans la data frame.
+\subsubsection{Pour un film d'épaisseur de 50nm}
+\begin{center}
+\includegraphics[scale=0.7]{kappa50nm.png} 
+\captionof{figure}{valeurs de $k_{f}$ }
+\end{center}
+\subsubsection{Pour un film d'épaisseur de 100nm}
+\begin{center}
+\includegraphics[scale=0.7]{kappa100nm.png} 
+\captionof{figure}{valeurs de $k_{f}$}
+\end{center}
+On obtient un $k_{f}$ moyen de 1,35 W/(m.K) pour la couche à 50 nm et de 2,45 W/(m.K) pour la couche de 100nm.
+\newline
+\newline
+Tout d'abord les valeurs trouvées sont cohérentes avec l'expression de la profondeur de pénétration. En effet, celle ci dépend de la fréquence d'excitation et plus cette fréquence est faible (pour une diffusivité fixée) plus elle est faible. Cette grandeur représentant l'épaisseur sur laquelle l'onde thermique se diffuse, il est donc logique d'avoir une conductivité plus forte à haute fréquence qu'à basse fréquence.
 
-
+De plus, les valeurs moyennes trouvées son cohérentes avec celles de la littérature: 1.34 W/(m.K)
+\section{Répartition du travail de groupe}
+Malgré qu'il soit souvent difficile dans ce type de projet de compartimenter le travail, nous nous sommes efforcé d'essayer de le faire. Nous avons tout d'abord pris le temps de bien comprendre le modèle utilisé tous ensemble. Ensuite, nous avons tous ensemble travailler sur chaque étape du projet. Chaque membre expliquer aux autres ce qu'il avait compris et proposer des raisonnements sur les résultats que l'on obtenait.
 \begin{thebibliography}
 D G. Cahill and R. O. Pohl, “Thermal conductivity of amorphous solids above the plateau,” Physical Review B,
 vol. 35, no. 8, pp. 4067–4073, 1987.

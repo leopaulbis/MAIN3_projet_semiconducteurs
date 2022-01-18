@@ -373,13 +373,13 @@ Il s'agit de regarder ici, à partir d'une conductivité thermique connue la coh
 Pour ce faire, on fait varier différentes grandeurs du modèle
 \subsubsection{Influence de la largeur de l'élément chauffant}
 \begin{center}
-\includegraphics[scale=0.7]{../schéma et graphes/graphes1.png} 
+\includegraphics[width=\linewidth]{../schéma et graphes/graphes1.png}
 \captionof{figure}{Variation de température pour différente valeur de largeur}
 \end{center}
 On voit clairement que plus la largeur de l'élément chauffant est grande, plus la variation de température est faible. Cela est cohérent puisque pour une même tension injectée dans l'élément chauffant, l'énergie dissipée par celui ci sera la même mais sur une surface d'autant plus grande que bh est grand. Donc, la puissance par unité de longueur est d'autant plus faible que bh est grand d'où l'observation.
 \begin{center}
-\includegraphics[scale=0.7]{../schéma et graphes/graphe2.png}
-\captionof{figure}{Variation de la phase et de l'amplitude de l'onde} 
+\includegraphics[width=\linewidth]{../schéma et graphes/graphe2.png}
+\captionof{figure}{Variation de la phase et de l'amplitude de l'onde}
 \end{center}
 Au niveau de la phase et de l'amplitude de l'onde, encore une fois le tracé est cohérent puisque la phase diminue lorsque la largeur augmente. En effet, la puissance dissipée par unité de longueur étant plus faible, cela induit un déphasage au niveau de l'onde (elle mettra plus de temps à atteindre un point donné si elle l'atteint).
 \subsubsection{Influence de la tension}
@@ -392,7 +392,7 @@ On réalise les même tracés que précédemment mais pour $V_{0}=2V$ (au lieu d
 \end{center}
 Pour une tension dont le fondamental est plus important, la puissance dissipée seras également plus importante ce qui explique que les variations de température observée pour $V_{0}=2V$ sont plus importante que pour $V_{0}=1V$. De même pour la phase et la valeur du troisième harmonique. 
 \subsection{Calcul de la conductivité thermique du SiN}
-Afin d'appliquer le raisonnement explicité de la section 4.2, il s'agit de tracer les variations de la composante en phase de la température pour le substrat seul et l'ensemble substrat-couche mince à partir des données expérimentales. Pour cela, ces données (fréquence, troisième harmonique, ...etc) sont stockées dans un fichier excel. 
+Afin d'appliquer le raisonnement explicité de la section 4.2, il s'agit de tracer les variations de la composante en phase de la température pour le substrat seul et l'ensemble substrat-couche mince à partir des données expérimentales. Pour cela, ces données (fréquence, troisième harmonique, ...etc) sont stockées dans un fichier excel.
 \newline
 Ensuite, à l'aide de la formule de Cahill, on trace les variations de la température du substrat seul grâce aux valeurs de fréquences stockées dans le fichier excel. De même, on remonte à la valeur de $\Delta T_{ac}$ grâce aux valeurs du troisième harmonique stockées dans ce même fichier.
 \subsubsection{Pour un film d'une épaisseur de 100 nm}
@@ -402,7 +402,7 @@ Ensuite, à l'aide de la formule de Cahill, on trace les variations de la tempé
 \end{center}
 \subsubsection{Pour un film d'une épaisseur de 100nm}
 \begin{center}
-\includegraphics[scale=0.7]{100nm.png} 
+\includegraphics[scale=0.7]{100nm.png}
 \captionof{figure}{Variation de température Si(substrat) et Si + film}
 \end{center}
 Les valeurs  de température (celles du substrat seul et les partie réelle et partie imaginaire de l'ensemble couche-mince-substrat) calculées pour chaque fréquences sont alors stockées dans une dataframe. On créer de plus deux champs supplémentaires dans lesquels seront stockées les valeurs de température du film et de conductivité calculées par la suite.
@@ -410,12 +410,12 @@ Les valeurs  de température (celles du substrat seul et les partie réelle et p
 On calcul ensuite de le $\Delta T_{f}$ en faisant la différence entre les deux variations de température calculées et on stocke ces valeurs dans la dataframe. On en déduit alors la valeur de la conductivité du film grâce à la formule 4.5 que l'on stocke également dans la data frame.
 \subsubsection{Pour un film d'épaisseur de 50nm}
 \begin{center}
-\includegraphics[scale=0.7]{kappa50nm.png} 
+\includegraphics[scale=0.7]{kappa50nm.png}
 \captionof{figure}{valeurs de $k_{f}$ }
 \end{center}
 \subsubsection{Pour un film d'épaisseur de 100nm}
 \begin{center}
-\includegraphics[scale=0.7]{kappa100nm.png} 
+\includegraphics[scale=0.7]{kappa100nm.png}
 \captionof{figure}{valeurs de $k_{f}$}
 \end{center}
 On obtient un $k_{f}$ moyen de 1,35 W/(m.K) pour la couche à 50 nm et de 2,45 W/(m.K) pour la couche de 100nm.

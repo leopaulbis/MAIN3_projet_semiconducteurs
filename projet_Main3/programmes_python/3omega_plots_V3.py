@@ -6,6 +6,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.ticker import FuncFormatter
 import matplotlib.ticker
+import matplotlib.ticker
 from matplotlib import rc
 
 # An instance of RcParams for handling default Matplotlib values.
@@ -31,19 +32,21 @@ a = mpf(0.25)                               # a = 0.25
 b = mpf(0.25)                               # b = 0.25
 z = mpf(0.75)                               # z = 0.25
 
+print("toutes les valeurs sont à saisir dans les unités du SI")
 # 3 omega measuresure Parameters
-#D=float(input("entrer la valeur de la diffusivité thermique: "))
-D = 9.07e-5                                 # Thermal diffusivity. 1.14e-3 diamond diffusivity, 200 -1000 e-8 for BN - CNT D = 4.6e-4, 0.025e4 polymers PVP aqueous, 1.3e-7
-#k=float(input("entrer la valeur de la conductivité thermique: "))
-k = 140                                     # Thermal conductivity. Unit: W/mK (140-160 Si, Diamond - 220 - 420 for BN) CNT 750 W/mK  or from 50 to 80 W/mK, 2000 W/mK, 0.27 PVP
-gamma = 0.5772                              # Euler constant
-V0 = 1  
-#R0=float(input("entrer la valeur de la résistance: "))                                   # Fundamental peak value
-R0 = 80                                     # Room temp resistance of the heater
-#TCR=float(input("entrer la valeur du coefficient de température: "))
-TCR = 0.00253                               # Temperature Coefficient of the electrical Resistivity (TRC), usually in the ~10^-3 /K. (Au TCR = 0.002535 /K)
-#L=float(input("entrer la longueur de l'élément chauffant: "))
-L = 0.001                                   # Length of the heater
+D=float(input("entrer la valeur de la diffusivité thermique: "))
+#D = 9.07e-5                                 # Thermal diffusivity. 1.14e-3 diamond diffusivity, 200 -1000 e-8 for BN - CNT D = 4.6e-4, 0.025e4 polymers PVP aqueous, 1.3e-7
+k=float(input("entrer la valeur de la conductivité thermique: "))
+#k = 140                                     # Thermal conductivity. Unit: W/mK (140-160 Si, Diamond - 220 - 420 for BN) CNT 750 W/mK  or from 50 to 80 W/mK, 2000 W/mK, 0.27 PVP
+gamma = 0.5772  #Euler constant
+V0=float(input("entrer la valeur de V0"))                             
+#V0 = 1  
+R0=float(input("entrer la valeur de la résistance: "))                                   # Fundamental peak value
+#R0 = 80                                     # Room temp resistance of the heater
+TCR=float(input("entrer la valeur du coefficient de température: "))
+#TCR = 0.00253                               # Temperature Coefficient of the electrical Resistivity (TRC), usually in the ~10^-3 /K. (Au TCR = 0.002535 /K)
+L=float(input("entrer la longueur de l'élément chauffant: "))
+#L = 0.001                                   # Length of the heater
 P = V0**2/(2*R0)                            # W/m power per unit length
 frequency = np.arange(0.3, 30001, 1000)   # Frequency range
 bh = np.array([0.2e-6, 0.4e-6, 1e-6])       # Heater half width
